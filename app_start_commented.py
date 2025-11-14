@@ -27,7 +27,7 @@ with st.expander("👉 How to use this app"):
 # Don't forget the comma after each line!
 #
 EMOJI_DICT = {
-    "love": "💩",
+    "love": "❤️",
     "happy": "😊",
     "sad": "😢",
     "cat": "🐱",
@@ -62,6 +62,7 @@ st.markdown("---")  # Adds a horizontal line
 # We store whatever the user types in a variable called `user_input`.
 #
 user_input = st.text_input("Enter your text to translate:")
+
 # --- 6. "TRANSLATE" THE TEXT ---
 # This is where the main logic happens!
 
